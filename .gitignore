@@ -1,0 +1,67 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# debug information files
+*.dwo
+
+# --- Adições para PlatformIO, VS Code e Wokwi ---
+
+# Ignorar arquivos e pastas de build do PlatformIO
+.pio/
+.vscode/
+
+# Ignorar arquivos temporários e de compilação adicionais
+*.bin
+*.hex
+*.map
+*.su
+*.pyc
+
+# Ignorar dados de upload (se gerados em uma pasta específica)
+/firmware/
+
+# Ignorar dados do Wokwi (simulador)
+.wokwi-config.json
+*.wokwi.json
+
+# Ignorar arquivos de cache e ambiente comuns
+.env
+.idea/
+npm-debug.log
+yarn-error.log
